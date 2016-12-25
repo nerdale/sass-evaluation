@@ -1,0 +1,21 @@
+html {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+nav{
+	background-color: #FFF;
+	box-shadow: none;
+	ul{
+		padding-top: -10rem;
+		a{
+			color: $gray-text;
+			font-size: 0.9rem;
+
+			&:hover{
+				@include subline;
+				background-color: transparent;
+
+			}			
+		}
+	}
+}
