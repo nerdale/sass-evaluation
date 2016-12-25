@@ -1,3 +1,6 @@
 @mixin subline {
 	border-bottom: $highlighted-color 3px solid;
 }
+@mixin news{
+	font-size: 12px;
+}

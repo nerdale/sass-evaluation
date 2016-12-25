@@ -1,3 +1,48 @@
 .family{
 	margin-top: 1rem;
 }
+.first-section{
+	margin-top: 3rem;
+}
+.divider{
+	background-color: $highlighted-color;
+	margin-top: 0.2rem;
+}
+.title{
+	font-size: 16px;
+	color: $gray-text;
+	span{
+		@include subline;
+	}
+}
+.date{
+	@include news;
+	color: $highlighted-color;
+}
+.date-two{
+	@include news;
+	color: $gray-text;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.star{
+	cursor: pointer;
+	span{
+		color: $highlighted-color;	
+	}
+	.material-icons{
+		font-size: 10px;
+	}
+}
+.info{
+	margin-top: -0.4rem;
+}
+.separate{
+	.divider{
+		background-color: $grayclear-text;
+		margin-top: -1rem;
+	}
+}
+.info-two{
+	margin-top: -1.5rem;
+}

@@ -6357,19 +6357,60 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 html {
   font-family: 'Merriweather Sans', sans-serif; }
 
+.first-title span {
+  color: #EA4748; }
+
 nav {
   background-color: #FFF;
   box-shadow: none; }
-  nav ul {
-    padding-top: -10rem; }
-    nav ul a {
-      color: #696969;
-      font-size: 0.9rem; }
-      nav ul a:hover {
-        border-bottom: #EA4748 3px solid;
-        background-color: transparent; }
+  nav ul a {
+    color: #696969;
+    font-size: 0.9rem; }
+    nav ul a:hover {
+      border-bottom: #EA4748 3px solid;
+      background-color: transparent; }
 
 .family {
   margin-top: 1rem; }
+
+.first-section {
+  margin-top: 3rem; }
+
+.divider {
+  background-color: #EA4748;
+  margin-top: 0.2rem; }
+
+.title {
+  font-size: 16px;
+  color: #696969; }
+  .title span {
+    border-bottom: #EA4748 3px solid; }
+
+.date {
+  font-size: 12px;
+  color: #EA4748; }
+
+.date-two {
+  font-size: 12px;
+  color: #696969;
+  margin-bottom: 0;
+  margin-top: 0; }
+
+.star {
+  cursor: pointer; }
+  .star span {
+    color: #EA4748; }
+  .star .material-icons {
+    font-size: 10px; }
+
+.info {
+  margin-top: -0.4rem; }
+
+.separate .divider {
+  background-color: #BEBEBE;
+  margin-top: -1rem; }
+
+.info-two {
+  margin-top: -1.5rem; }
 
 /*# sourceMappingURL=main.css.map */
