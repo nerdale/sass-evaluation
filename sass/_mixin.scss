@@ -22,7 +22,7 @@
 	color: $grayclear-text;
 }
 @mixin txt-grayclear{
-	font-size: 10px;
+	font-size: 11px;
 	color: $grayclear-text;
 }
 @mixin linkcolor{
@@ -30,6 +30,9 @@
 }
 @mixin linkgray{
 	color: $grayclear-text;
+}
+@mixin linkgraydark{
+	color: $gray-text;
 }
 @mixin info-fp{
 	color: $gray-text;
