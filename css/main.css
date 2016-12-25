@@ -6396,11 +6396,26 @@ nav {
   margin-bottom: 0;
   margin-top: 0; }
 
+.date-three {
+  font-size: 12px;
+  color: #696969;
+  margin-top: 0.4rem; }
+
 .star {
-  cursor: pointer; }
+  cursor: pointer;
+  color: #BEBEBE; }
   .star span {
     color: #EA4748; }
   .star .material-icons {
+    font-size: 10px; }
+
+.star-two {
+  cursor: pointer;
+  color: #BEBEBE;
+  margin-top: -1rem; }
+  .star-two span {
+    color: #EA4748; }
+  .star-two .material-icons {
     font-size: 10px; }
 
 .info {
@@ -6412,5 +6427,69 @@ nav {
 
 .info-two {
   margin-top: -1.5rem; }
+
+.fa-facebook {
+  font-size: 25px;
+  color: white;
+  width: 100%;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  margin-top: 0;
+  cursor: pointer;
+  background-color: #3B5998; }
+  .fa-facebook:hover {
+    background-color: #4c70ba; }
+
+.fa-twitter {
+  font-size: 25px;
+  color: white;
+  width: 100%;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  margin-top: 0;
+  cursor: pointer;
+  background-color: #1DA1F2; }
+  .fa-twitter:hover {
+    background-color: #4db5f5; }
+
+.fa-rss {
+  font-size: 25px;
+  color: white;
+  width: 100%;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  margin-top: 0;
+  cursor: pointer;
+  background-color: #FF9900; }
+  .fa-rss:hover {
+    background-color: #ffad33; }
+
+.txt-social {
+  font-size: 12px;
+  color: #696969; }
+
+.vimeo {
+  margin-top: 2.4rem; }
+  .vimeo .video-container {
+    margin-top: 2.5rem;
+    margin-bottom: 2rem; }
+
+.spot {
+  margin-top: 2rem; }
+
+.title-life {
+  font-size: 12px;
+  color: #696969;
+  line-height: 25px;
+  line-height: 1.5625rem; }
+
+.txt-grayclear {
+  font-size: 10px;
+  color: #BEBEBE;
+  line-height: 25px;
+  line-height: 1.5625rem; }
+
+.world {
+  margin-top: 1rem; }
 
 /*# sourceMappingURL=main.css.map */

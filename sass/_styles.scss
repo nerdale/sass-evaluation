@@ -20,13 +20,27 @@
 	color: $highlighted-color;
 }
 .date-two{
-	@include news;
-	color: $gray-text;
+	@include txt-gray;
 	margin-bottom: 0;
 	margin-top: 0;
 }
+.date-three{
+	@include news;
+	color: $gray-text;
+	margin-top: 0.4rem;
+}
 .star{
-	cursor: pointer;
+	@include star;
+	span{
+		color: $highlighted-color;	
+	}
+	.material-icons{
+		font-size: 10px;
+	}
+}
+.star-two{
+	@include star;
+	margin-top: -1rem;
 	span{
 		color: $highlighted-color;	
 	}
@@ -45,4 +59,49 @@
 }
 .info-two{
 	margin-top: -1.5rem;
+}
+.fa-facebook{
+	@include social-network;
+	background-color: $fb;
+	&:hover{
+		background-color: lighten($fb, 10%);
+	}
+}
+.fa-twitter{
+	@include social-network;
+	background-color: $tw;
+	&:hover{
+		background-color: lighten($tw, 10%);
+	}
+}
+.fa-rss{
+	@include social-network;
+	background-color: $rss;
+	&:hover{
+		background-color: lighten($rss, 10%);
+	}
+}
+.txt-social{
+	@include txt-gray;
+}
+.vimeo{
+	margin-top: 2.4rem;
+	.video-container{
+		margin-top: 2.5rem;
+		margin-bottom: 2rem;
+	}
+}
+.spot{
+	margin-top: 2rem;
+}
+.title-life{
+	@include txt-gray;
+	@include line-height(25);
+}
+.txt-grayclear{
+	@include txt-grayclear;
+	@include line-height(25);
+}
+.world{
+	margin-top: 1rem;
 }

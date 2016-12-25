@@ -1,6 +1,27 @@
-@mixin subline {
+@mixin subline{
 	border-bottom: $highlighted-color 3px solid;
 }
 @mixin news{
 	font-size: 12px;
+}
+@mixin txt-gray{
+	font-size: 12px;
+	color: $gray-text;
+}
+@mixin social-network{
+	font-size: 25px;
+	color: white;
+	width: 100%;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+	margin-top: 0;
+	cursor: pointer;	
+}
+@mixin star{
+	cursor: pointer;
+	color: $grayclear-text;
+}
+@mixin txt-grayclear{
+	font-size: 10px;
+	color: $grayclear-text;
 }
