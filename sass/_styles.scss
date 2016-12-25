@@ -15,6 +15,16 @@
 		@include subline;
 	}
 }
+.title-mini{
+	font-size: 14px;
+	a{
+		color: $gray-text;
+		margin-right: 0.5rem;
+		span{
+			@include subline;
+		}
+	}
+}
 .date{
 	@include news;
 	color: $highlighted-color;
@@ -98,10 +108,55 @@
 	@include txt-gray;
 	@include line-height(25);
 }
+.title-side{
+	margin-top: -2rem;
+	@include txt-gray;
+	@include line-height(25);
+}
 .txt-grayclear{
 	@include txt-grayclear;
 	@include line-height(25);
 }
 .world{
 	margin-top: 1rem;
+}
+.poserue{
+	a{
+		@include linkcolor;
+	}
+}
+.info-acord{
+	margin-top: -2rem;
+}
+.view-more{
+	margin-top: -1rem;
+	a{	
+		color: $gray-text;
+		i{
+			@include linkgray;
+		}	
+	}
+}
+.t-world{
+	margin-top: -4rem;
+}
+.like{
+	font-size: 12px;
+	span{
+		font-weight: 700;
+	}
+}
+.fp{
+	@include info-fp;
+}
+.fb{
+	margin-top: -1rem;
+}
+.plugin{
+	img{
+		margin-top: 0.3rem;
+	}
+	a{
+		@include info-fp;
+	}
 }

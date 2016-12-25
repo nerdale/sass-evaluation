@@ -6,3 +6,4 @@ $(document).ready(function(){
     	draggable: true
     });
 }) 
+

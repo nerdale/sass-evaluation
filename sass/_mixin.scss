@@ -25,3 +25,16 @@
 	font-size: 10px;
 	color: $grayclear-text;
 }
+@mixin linkcolor{
+	color: $highlighted-color;
+}
+@mixin linkgray{
+	color: $grayclear-text;
+}
+@mixin info-fp{
+	color: $gray-text;
+	font-size: 10px;
+	text-align: center;
+	font-weight: 300;
+	margin-top: -0.2rem;	
+}
