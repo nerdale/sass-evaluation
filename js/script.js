@@ -5,5 +5,7 @@ $(document).ready(function(){
     	closeOnClick: true, 
     	draggable: true
     });
+
+    $('.carousel.carousel-slider').carousel({full_width: true});
 }) 
 

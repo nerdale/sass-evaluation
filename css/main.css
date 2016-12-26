@@ -6516,6 +6516,14 @@ nav {
 .poserue a {
   color: #EA4748; }
 
+.dest {
+  background-color: #EA4748;
+  position: absolute;
+  float: left;
+  z-index: 3;
+  padding: 5px 30px;
+  color: #FFF; }
+
 .info-acord {
   margin-top: -2rem; }
 
