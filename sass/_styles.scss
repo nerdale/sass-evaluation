@@ -203,3 +203,17 @@
 	margin-bottom: -1.5rem;
 	padding-top: 0.2rem;
 }
+.btn{
+	background-color: $highlighted-color;
+	color: $white;
+	width: 1rem;
+	float: right;
+	&:hover{
+		background-color: lighten($highlighted-color, 10%);
+	}
+}
+.fa-search{
+	font-size: 12px;
+	margin-top: -2rem;
+	margin-left: -0.6rem;
+}

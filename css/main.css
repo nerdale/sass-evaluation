@@ -6589,4 +6589,17 @@ nav {
   margin-bottom: -1.5rem;
   padding-top: 0.2rem; }
 
+.btn, .btn-large {
+  background-color: #EA4748;
+  color: #FFF;
+  width: 1rem;
+  float: right; }
+  .btn:hover, .btn-large:hover {
+    background-color: #ef7576; }
+
+.fa-search {
+  font-size: 12px;
+  margin-top: -2rem;
+  margin-left: -0.6rem; }
+
 /*# sourceMappingURL=main.css.map */
